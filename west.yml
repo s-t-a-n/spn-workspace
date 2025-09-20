@@ -1,0 +1,19 @@
+manifest:
+  remotes:
+    - name: github
+      url-base: https://github.com
+    - name: github_ssh
+      url-base: ssh://git@github.com
+  projects:
+    - name: zephyr
+      remote: github
+      repo-path: zephyrproject-rtos/zephyr
+      revision: v3.7.1
+      import:
+        name-allowlist:
+          - none_what_so_ever
+    - name: etl
+      remote: github
+      repo-path: ETLCPP/etl
+      revision: 20.41.6
+      path: modules/lib/etl
