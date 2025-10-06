@@ -11,9 +11,15 @@ manifest:
       revision: v3.7.1
       import:
         name-allowlist:
-          - none_what_so_ever
+          - mbedtls
+          - hal_nordic
+          - hal_stm32
+          - hal_espressif
+          - cmsis
+          - segger
     - name: etl
       remote: github
       repo-path: ETLCPP/etl
       revision: 20.41.6
       path: modules/lib/etl
+
