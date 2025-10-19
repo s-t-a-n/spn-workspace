@@ -22,4 +22,8 @@ manifest:
       repo-path: ETLCPP/etl
       revision: 20.41.6
       path: modules/lib/etl
-
+    - name: spn
+      remote: github
+      repo-path: s-t-a-n/spn
+      revision: develop
+      west-commands: west-commands.yml
