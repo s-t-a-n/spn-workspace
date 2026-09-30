@@ -8,14 +8,14 @@ manifest:
     - name: zephyr
       remote: github
       repo-path: zephyrproject-rtos/zephyr
-      revision: v3.7.1
+      revision: v4.4.0
       import:
         name-allowlist:
           - mbedtls
           - hal_nordic
           - hal_stm32
           - hal_espressif
-          - cmsis
+          - cmsis_6
           - segger
     - name: etl
       remote: github
