@@ -20,7 +20,7 @@ manifest:
     - name: etl
       remote: github
       repo-path: ETLCPP/etl
-      revision: 20.41.6
+      revision: 20.49.0
       path: modules/lib/etl
     - name: spn
       remote: github
